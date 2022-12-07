@@ -4,7 +4,7 @@ import { Button } from "antd";
 const Layout = () => {
   return (
     <div>
-      Layout Page<Button>11</Button>
+      Layout Page<Button type="primary">点击</Button>
     </div>
   );
 };
