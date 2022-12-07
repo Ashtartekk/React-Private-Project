@@ -1,8 +1,8 @@
 import React from "react";
-import "./app.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Layout from "./pages/Layout";
+
 // import webpack from './assets/imgs/Webpack.webp'
 
 function App() {
