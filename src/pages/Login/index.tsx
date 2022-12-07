@@ -1,9 +1,10 @@
 import React from "react";
+import Card from "antd/es/card/Card";
 
 const Login = () => {
   return (
     <div>
-      Login Page <button></button>
+      Login Page <Card />
     </div>
   );
 };
