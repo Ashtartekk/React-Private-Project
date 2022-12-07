@@ -1,13 +1,22 @@
-import React from 'react'
-import './app.css'
+import React from "react";
+import "./app.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Layout from "./pages/Layout";
 // import webpack from './assets/imgs/Webpack.webp'
 
 function App() {
-  return(
-    <div>
-        <h2>webpack5-react-ts</h2>
-        {/* <img src={webpack} alt="" /> */}
-    </div>
-  ) 
+  return (
+    //路由配置
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          {/* 创建路由path和组件对应关系 */}
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/layout" element={<Layout />}></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
 }
-export default App
+export default App;
