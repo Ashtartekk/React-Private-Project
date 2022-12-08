@@ -5,7 +5,7 @@ import styles from "./index.scss";
 const Login = () => {
   return (
     <div>
-      Login Page <Card className="card" />
+      My Login Page <Card className="card" />
     </div>
   );
 };
